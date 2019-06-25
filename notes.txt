@@ -1,0 +1,4 @@
+> aria-live="assertive -> attribute means that the value of the text field will be spoken whenever it changes
+> aria-controls -> confirms that each button controls the inpu
+> role="alert" and aria-live="assertive" should both be used. These are synonymous attributes, but some screen readers only support one or the other.
+> 

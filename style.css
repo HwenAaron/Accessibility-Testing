@@ -1,0 +1,9 @@
+
+
+input:focus + [role="tooltip"] {
+	display: block;
+	position: absolute;
+	top: 100%;
+}
+
+
