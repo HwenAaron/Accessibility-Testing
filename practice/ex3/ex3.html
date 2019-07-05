@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Accessible input tooltips with no javascript</title>
+    <link rel="stylesheet" href="ex3.css" charset="utf-8">
+    
+  
+  </head>
+  <body>
+    <p id="testing">asdf asdf asdf</p>
+    <p id="p1">Hello World!</p>
+
+    <div class="container">
+      <div class="collapsible">
+        <h3>
+           <button aria-expanded="false" aria-controls="collapsible-0">What is this all about?</button>
+        </h3>
+        <div id="collapsible-0" aria-hidden="true">
+           <p>Lorem ipsum with a <a href="http://example.com">link thrown in</a> etc.</p>
+           <p>etc.</p>
+        </div>
+        <h3>
+           <button aria-expanded="false" aria-controls="collapsible-1">More collapsibles?</button>
+        </h3>
+        <div id="collapsible-1" aria-hidden="true">
+           <p>Yes please!.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="ex3.js"></script>  
+    
+  </body>
+</html>

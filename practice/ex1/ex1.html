@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wai-aria test</title>
+	<link rel="stylesheet" type="text/css" href="ex1.css">
+	<script type="text/javascript" src="myscript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	
+	<p id="testing">asdf asdf asdf</p>
+	<p id="p1">Hello World!</p>
+
+	<!--Form Ex1-->
+	<form action="">
+  		<fieldset>
+	    	<legend>Login form</legend>
+	    	<div>
+	      		<label for="username">Your username</label>
+		  			<input type="text" id="username" aria-describedby="username-tip" required />
+		  			<div role="tooltip" id="username-tip">Your username is your email address</div>
+			</div>
+			<div>
+		  		<label for="password">Your password</label>
+		  		<input type="text" id="password" aria-describedby="password-tip" required />
+		  		<div role="tooltip" id="password-tip">Was emailed to you when you signed up</div>
+			</div>
+  		</fieldset>
+	</form>
+
+</body>
+</html>

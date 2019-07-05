@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>EX7</title>
+    <link rel="stylesheet" href="ex7.css">
+</head>
+<body>
+
+	<p id="testing">asdf asdf asdf</p>
+    <p id="p1">Hello World!</p>
+
+	<div role="toolbar" aria-label="sorting options" aria-controls="sortable">
+  		<button type="button" aria-pressed="true" data-sort="ascending">A to Z</button>
+  		<button type="button" aria-pressed="false" data-sort="descending">Z to A</button>
+	</div>
+	<ul id="sortable" tabindex="-1">
+  		<li>Fiddler crab</li>
+  		<li>Hermit crab</li>
+  		<li>Red crab</li>
+  		<li>Robber crab</li>
+  		<li>Sponge crab</li>
+  		<li>Yeti crab</li>
+	</ul>
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="ex7.js"></script>
+
+</body>
+</html>
